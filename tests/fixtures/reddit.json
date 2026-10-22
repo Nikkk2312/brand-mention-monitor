@@ -1,0 +1,34 @@
+{
+  "kind": "Listing",
+  "data": {
+    "after": "t3_zz9999",
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "id": "ab12cd",
+          "name": "t3_ab12cd",
+          "subreddit": "fleetmanagement",
+          "title": "Anyone using Kestrel Systems for inspection scheduling?",
+          "selftext": "We run 180 trucks and the spreadsheet is killing us. Would love to hear if Kestrel Systems is worth it.",
+          "permalink": "/r/fleetmanagement/comments/ab12cd/anyone_using_kestrel_systems/",
+          "author": "dispatch_dan",
+          "created_utc": 1792300000
+        }
+      },
+      {
+        "kind": "t3",
+        "data": {
+          "id": "ef34gh",
+          "name": "t3_ef34gh",
+          "subreddit": "smallbusiness",
+          "title": "Got overcharged by Kestrel Fleet after cancelling",
+          "selftext": "Cancelled in August, still billed in September. Support has not replied. Avoid.",
+          "permalink": "/r/smallbusiness/comments/ef34gh/overcharged_by_kestrel_fleet/",
+          "author": "owner_ops",
+          "created_utc": 1792210000
+        }
+      }
+    ]
+  }
+}

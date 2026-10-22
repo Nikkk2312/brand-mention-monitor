@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+  <rect width="900" height="400" fill="#ffffff"/>
+  <text x="20" y="30" font-size="18" font-weight="600" fill="#222">brand-mention-monitor: one hourly run</text>
+
+  <!-- Sources -->
+  <rect x="20" y="60" width="170" height="50" rx="8" fill="#eef3fb" stroke="#4a6fa5"/>
+  <text x="105" y="82" text-anchor="middle" font-weight="600" fill="#1f3b63">Google News RSS</text>
+  <text x="105" y="100" text-anchor="middle" fill="#333">news.google.com/rss</text>
+  <rect x="20" y="125" width="170" height="50" rx="8" fill="#eef3fb" stroke="#4a6fa5"/>
+  <text x="105" y="147" text-anchor="middle" font-weight="600" fill="#1f3b63">Reddit search</text>
+  <text x="105" y="165" text-anchor="middle" fill="#333">JSON, RSS fallback</text>
+  <rect x="20" y="190" width="170" height="50" rx="8" fill="#eef3fb" stroke="#4a6fa5"/>
+  <text x="105" y="212" text-anchor="middle" font-weight="600" fill="#1f3b63">Hacker News</text>
+  <text x="105" y="230" text-anchor="middle" fill="#333">Algolia search API</text>
+
+  <rect x="20" y="290" width="170" height="70" rx="8" fill="#fbf4e6" stroke="#b7862e"/>
+  <text x="105" y="315" text-anchor="middle" font-weight="600" fill="#6b4c0f">config.yaml</text>
+  <text x="105" y="335" text-anchor="middle" fill="#333">terms, word lists,</text>
+  <text x="105" y="351" text-anchor="middle" fill="#333">quiet hours</text>
+
+  <!-- Pipeline -->
+  <rect x="240" y="110" width="130" height="80" rx="8" fill="#f3f3f3" stroke="#777"/>
+  <text x="305" y="135" text-anchor="middle" font-weight="600" fill="#222">Filter</text>
+  <text x="305" y="155" text-anchor="middle" fill="#333">include terms</text>
+  <text x="305" y="173" text-anchor="middle" fill="#333">exclude terms</text>
+
+  <rect x="400" y="110" width="130" height="80" rx="8" fill="#f3f3f3" stroke="#777"/>
+  <text x="465" y="135" text-anchor="middle" font-weight="600" fill="#222">Dedupe</text>
+  <text x="465" y="155" text-anchor="middle" fill="#333">against seen.json</text>
+  <text x="465" y="173" text-anchor="middle" fill="#333">stable ids per source</text>
+
+  <rect x="560" y="110" width="130" height="80" rx="8" fill="#eaf5ec" stroke="#3b7d4a"/>
+  <text x="625" y="135" text-anchor="middle" font-weight="600" fill="#1f4d2a">Classify</text>
+  <text x="625" y="155" text-anchor="middle" fill="#333">negative wins</text>
+  <text x="625" y="173" text-anchor="middle" fill="#333">LLM pass optional</text>
+
+  <rect x="720" y="95" width="160" height="110" rx="8" fill="#eef3fb" stroke="#4a6fa5"/>
+  <text x="800" y="120" text-anchor="middle" font-weight="600" fill="#1f3b63">Notify</text>
+  <text x="800" y="142" text-anchor="middle" fill="#333">Telegram, Slack optional</text>
+  <text x="800" y="160" text-anchor="middle" fill="#333">negatives first, ALERT line</text>
+  <text x="800" y="178" text-anchor="middle" fill="#333">nothing new = no message</text>
+  <text x="800" y="196" text-anchor="middle" fill="#333">quiet hours = hold</text>
+
+  <!-- State -->
+  <rect x="400" y="260" width="290" height="70" rx="8" fill="#fbf4e6" stroke="#b7862e"/>
+  <text x="545" y="285" text-anchor="middle" font-weight="600" fill="#6b4c0f">state/seen.json</text>
+  <text x="545" y="305" text-anchor="middle" fill="#333">first seen, notified or held, pruned after 90 days</text>
+  <text x="545" y="321" text-anchor="middle" fill="#333">committed back by the GitHub Actions job</text>
+
+  <!-- Arrows -->
+  <line x1="190" y1="85" x2="238" y2="140" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="190" y1="150" x2="238" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="190" y1="215" x2="238" y2="160" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="370" y1="150" x2="398" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="530" y1="150" x2="558" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="690" y1="150" x2="718" y2="150" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="465" y1="258" x2="465" y2="192" stroke="#b7862e" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <line x1="800" y1="205" x2="692" y2="280" stroke="#b7862e" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <line x1="190" y1="325" x2="398" y2="300" stroke="#b7862e" stroke-width="1.5" stroke-dasharray="5 4"/>
+</svg>

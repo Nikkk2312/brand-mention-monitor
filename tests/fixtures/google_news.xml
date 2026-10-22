@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>"Kestrel Systems" - Google News</title>
+    <link>https://news.google.com/search?q=%22Kestrel+Systems%22</link>
+    <language>en-US</language>
+    <item>
+      <title>Kestrel Systems launches predictive maintenance for mid size fleets - Fleet Weekly (fictional)</title>
+      <link>https://news.example/fleet-weekly/kestrel-launch</link>
+      <guid isPermaLink="false">CBMiexample1</guid>
+      <pubDate>Tue, 21 Oct 2026 08:15:00 GMT</pubDate>
+      <source url="https://news.example/fleet-weekly">Fleet Weekly (fictional)</source>
+    </item>
+    <item>
+      <title>Customers report outage at Kestrel Systems after weekend update - Logistics Today (fictional)</title>
+      <link>https://news.example/logistics-today/kestrel-outage</link>
+      <guid isPermaLink="false">CBMiexample2</guid>
+      <pubDate>Mon, 20 Oct 2026 17:40:00 GMT</pubDate>
+      <source url="https://news.example/logistics-today">Logistics Today (fictional)</source>
+    </item>
+    <item>
+      <title>Kestrel bird population recovers in the valley - Nature Notes (fictional)</title>
+      <link>https://news.example/nature-notes/kestrel-bird</link>
+      <guid isPermaLink="false">CBMiexample3</guid>
+      <pubDate>Sun, 19 Oct 2026 06:00:00 GMT</pubDate>
+      <source url="https://news.example/nature-notes">Nature Notes (fictional)</source>
+    </item>
+  </channel>
+</rss>

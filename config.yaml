@@ -1,0 +1,59 @@
+# brand-mention-monitor settings. Fictional brand for the sample: Kestrel Systems.
+
+terms:
+  include:                 # a mention must contain one of these (whole words, any case)
+    - "Kestrel Systems"
+    - "Kestrel Fleet"
+  strict_match: true       # the exact phrase must be in the title or text we get back
+  exclude:                 # and none of these
+    - "kestrel bird"
+    - "falcon"
+    - "birdwatching"
+
+sources:
+  google_news: true
+  reddit: true
+  hacker_news: true
+
+limits:
+  per_source: 25           # results per source per term, each run
+
+classify:
+  negative:                # the first negative word found wins
+    - outage
+    - down
+    - scam
+    - lawsuit
+    - breach
+    - refund
+    - broken
+    - terrible
+    - worst
+    - complaint
+    - bug
+    - cancelled
+    - overcharged
+  positive:
+    - love
+    - great
+    - recommend
+    - excellent
+    - best
+    - impressed
+    - award
+    - launch
+    - partnership
+    - growth
+    - saved us
+
+notify:
+  telegram: true           # needs TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID
+  slack: false             # needs SLACK_WEBHOOK_URL
+
+quiet_hours:               # hold alerts between these hours, send them at the next run
+  timezone: "Asia/Kolkata"
+  start: 23
+  end: 7
+
+state_file: state/seen.json
+keep_days: 90              # ids older than this are pruned from the state file

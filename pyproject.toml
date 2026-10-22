@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brand-mention-monitor"
+version = "0.1.0"
+description = "Hourly brand mention monitor using Google News, Reddit and Hacker News, with Telegram or Slack alerts"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Niket Jain"}]
+dependencies = ["requests>=2.31", "pyyaml>=6.0"]
+
+[project.scripts]
+brand-monitor = "monitor.cli:main"
+
+[tool.setuptools]
+packages = ["monitor"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

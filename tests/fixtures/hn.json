@@ -1,0 +1,27 @@
+{
+  "hits": [
+    {
+      "objectID": "48100001",
+      "title": "Show HN: Open telematics parser that exports to Kestrel Systems and others",
+      "url": "https://example.dev/telematics-parser",
+      "author": "telemdev",
+      "created_at": "2026-10-21T12:30:00Z",
+      "comment_text": null,
+      "story_title": null,
+      "story_url": null
+    },
+    {
+      "objectID": "48100002",
+      "title": null,
+      "url": null,
+      "author": "fleetnerd",
+      "created_at": "2026-10-21T13:05:00Z",
+      "comment_text": "We tried Kestrel Systems last year. Great onboarding, the mobile app is the best part.",
+      "story_title": "Ask HN: What do small logistics companies use for maintenance?",
+      "story_url": "https://news.ycombinator.com/item?id=48099990"
+    }
+  ],
+  "nbHits": 2,
+  "page": 0,
+  "hitsPerPage": 25
+}

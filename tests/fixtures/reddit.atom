@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+  <category term="search" label="search"/>
+  <updated>2026-10-21T10:00:00+00:00</updated>
+  <id>/search.rss?q=Kestrel+Systems</id>
+  <title>search results</title>
+  <entry>
+    <author><name>/u/dispatch_dan</name><uri>https://www.reddit.com/user/dispatch_dan</uri></author>
+    <category term="fleetmanagement" label="r/fleetmanagement"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;We run 180 trucks and the spreadsheet is killing us. Would love to hear if Kestrel Systems is worth it.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;</content>
+    <id>t3_ab12cd</id>
+    <link href="https://www.reddit.com/r/fleetmanagement/comments/ab12cd/anyone_using_kestrel_systems/"/>
+    <updated>2026-10-21T09:30:00+00:00</updated>
+    <published>2026-10-21T09:30:00+00:00</published>
+    <title>Anyone using Kestrel Systems for inspection scheduling?</title>
+  </entry>
+  <entry>
+    <author><name>/u/owner_ops</name><uri>https://www.reddit.com/user/owner_ops</uri></author>
+    <category term="smallbusiness" label="r/smallbusiness"/>
+    <content type="html">&lt;!-- SC_OFF --&gt;&lt;div class="md"&gt;&lt;p&gt;Cancelled in August, still billed in September. Support has not replied. Avoid.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;</content>
+    <id>t3_ef34gh</id>
+    <link href="https://www.reddit.com/r/smallbusiness/comments/ef34gh/overcharged_by_kestrel_fleet/"/>
+    <updated>2026-10-20T08:00:00+00:00</updated>
+    <published>2026-10-20T08:00:00+00:00</published>
+    <title>Got overcharged by Kestrel Fleet after cancelling</title>
+  </entry>
+</feed>
